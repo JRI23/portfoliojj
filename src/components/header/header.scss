@@ -11,19 +11,21 @@
   position: absolute !important;
   width: 100%;
   padding: 30px 0;
-  background-color: $primary-honey;
+  top: 0;
+  left: 0;
+  background-color: $primary-mint;
 }
 
 .logojorai {
   a {
     text-decoration: none;
-    color: $primary-champ;
+    color: $primary-white;
     font-size: 35px;
     font-weight: 600;
     font-family: "Bebas Neue", cursive;
 
     span {
-      color: $primary-red;
+      color: $primary-green;
       font-family: "Bebas Neue", cursive;
     }
   }
@@ -35,7 +37,7 @@
     display: inline-block;
 
     a {
-      color: $primary-red;
+      color: $primary-white;
       text-decoration: none;
       font-size: 18px;
       font-weight: 500;

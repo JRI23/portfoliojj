@@ -7,6 +7,14 @@
   font-family: $font-stack;
 }
 
+html {
+  background-color: $primary-mint;
+}
+
 body {
-  background-color: $primary-champ;
+  width: 100%;
+  display: block;
+  margin: auto;
+  min-height: 100vh;
+  background: $primary-mint !important;
 }
