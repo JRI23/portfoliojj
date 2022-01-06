@@ -7,9 +7,6 @@
   font-family: $font-stack;
 }
 
-html {
-  background-color: $primary-mint;
-}
 
 body {
   width: 100%;
@@ -17,4 +14,12 @@ body {
   margin: auto;
   min-height: 100vh;
   background: $primary-mint !important;
+}
+
+h1, h3, h4, h5, h6, {
+  color: $primary-white;
+}
+
+h2 {
+ color: $primary-dark;
 }

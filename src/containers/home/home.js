@@ -7,10 +7,19 @@ export default function Home() {
         <>
             <Header/>
             <div className="spacing">
-                <div className="home-section">
-                    <div className="push-from-left">
-                        <h1>Hello my name is Jorai.</h1>
-                        <h2>This is the start of your personal portfolio</h2>
+                <div className="push-from-left">
+                    <div className="d-flex flex-column gap-1">
+                        <span>Hey there! My name is</span>
+                        <h1>
+                            <div className="text-trans-img">Jorai Jacobs</div>
+                        </h1>
+                        <h2>React front-end developer</h2>
+                        <div className="d-flex gap-1">
+                            <i className="fab fa-linkedin"/>
+                            <i className="fab fa-github"/>
+                            <i className="fab fa-gitlab"/>
+                        </div>
+                        <button className="btn btn-info customized-btn mt-2">Contact me</button>
                     </div>
                 </div>
             </div>
