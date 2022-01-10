@@ -5,28 +5,35 @@
 }
 
 .spacing {
-  margin: 400px auto auto auto;
+  margin: 300px auto auto auto;
 }
 
 .push-from-left {
   margin-left: 200px;
 }
 
-.text-trans-img {
-  background-image: url("https://images.unsplash.com/photo-1578922746465-3a80a228f223?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80");
-  background-position: 400px 200px;
-  background-repeat: repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  white-space: nowrap;
+.boy-img {
+  max-width: 65%;
+  height: auto;
+}
+
+.svg-background {
+  position: absolute;
+  z-index: -10;
+  width: 50%;
+  height: 100%;
+  top: 100px;
 }
 
 .customized-btn {
-  width: 10%;
+  width: 60%;
   border-radius: 8px;
   border: none;
-  background-color: $primary-dark-mint;
+  background-color: $primary-orange;
   color: $primary-dark;
+}
+
+.customized-btn:hover {
+  background-color: $primary-dark-orange;
+  transition: 0.4s ease-in-out;
 }
