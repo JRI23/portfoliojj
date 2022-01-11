@@ -1,26 +1,57 @@
 @import "../../sass/variables";
 
-.home-section {
-  min-height: 500px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+
+  .boy-img {
+    max-width: 90%;
+    margin-left: 20%;
+  }
+
+  .svg-background {
+    width: 100% !important;
+    top: 20%;
+  }
 }
 
-.spacing {
-  margin: 300px auto auto auto;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .boy-img {
+    max-width: 75%;
+  }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+
+  .boy-img {
+    max-width: 90%;
+    margin-left: 15%;
+  }
+
+  .svg-background {
+    width: 100% !important;
+    top: 20%;
+  }
+
+
+}
+
+/* Larger devices */
 
 .push-from-left {
   margin-left: 200px;
 }
 
 .boy-img {
-  max-width: 65%;
+  max-width: 85%;
   height: auto;
 }
 
 .svg-background {
   position: absolute;
   z-index: -10;
-  width: 50%;
+  width: 65%;
   height: 100%;
   top: 100px;
 }
@@ -36,4 +67,17 @@
 .customized-btn:hover {
   background-color: $primary-dark-orange;
   transition: 0.4s ease-in-out;
+}
+
+// Colors for the icons
+.lin-blue {
+  color: #0077b5;
+}
+
+.ghub-black {
+  color: #333;
+}
+
+.glab-orange {
+  color: #fc6d26;
 }

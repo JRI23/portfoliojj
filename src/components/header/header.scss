@@ -1,5 +1,4 @@
-@import "../../sass/variables";
-
+  @import "../../sass/variables";
 
 .max-width {
   //max-width: 1300px;
@@ -8,12 +7,13 @@
 }
 
 .custom-navbar {
-  position: absolute !important;
+  position: relative !important;
   width: 100%;
   padding: 30px 0;
   top: 0;
   left: 0;
   background-color: $primary-mint;
+  overflow: hidden;
 }
 
 .logojorai {
@@ -34,7 +34,6 @@
 .link-list {
   li {
     list-style: none;
-    display: inline-block;
 
     a {
       color: $primary-white;
@@ -45,4 +44,17 @@
   }
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  .max-width {
+    padding: 0 30px 0 30px;
+  }
+
+  .link-list {
+    a {
+      display: none !important;
+    }
+  }
+
+}
 
