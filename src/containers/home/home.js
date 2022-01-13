@@ -15,7 +15,7 @@ export default function Home() {
                         <h1>
                             <div><span>Jorai</span> <span className="primary-green">Jacobs</span></div>
                         </h1>
-                        <h2>React front-end developer</h2>
+                        <h2>Front-end developer</h2>
                         <div className="d-flex gap-1">
                             <a className="lin-blue" href="https://www.linkedin.com/in/jorai-jacobs-06a509229"><i className="fab fa-linkedin"/></a>
                             <a className="ghub-black" href="https://github.com/JRI23"><i className="fab fa-github"/></a>
