@@ -1,5 +1,5 @@
 # My Portfolio
-Hello, here you can see my source code of how I created my portfolio. I've use React as front-end framework.
+Hello, here you can see my source code of how I created my portfolio. I use React as front-end framework.
 <br>
 It's still under development. Looking forward to the future...
 <br>
