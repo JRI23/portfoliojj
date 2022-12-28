@@ -4,7 +4,8 @@ It's still under development. Looking forward to the future...
 ## Project goals
 - Design plan
 - Animations
-- Memoji that takes a parkour through the front-page of the website
+- CSS Motion Path
+- 2D custom pixel character that takes a parkour through the front-page of the website
 - Structured styling
 - Develop React Skills
     - JSX
