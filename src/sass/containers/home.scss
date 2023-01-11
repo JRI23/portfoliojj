@@ -1,54 +1,16 @@
 @import "../abstracts/variables";
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 576px) {
 
-  .boy-img {
-    max-width: 90%;
-    margin-left: 20%;
+h1 {
+  position: relative;
+  text-align: center;
+  font-size: 50rem;
+
+  span {
+    position: absolute;
+    left: 1130px;
+    color: black;
   }
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .boy-img {
-    max-width: 75%;
-  }
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 576px) {
-
-  .boy-img {
-    max-width: 90%;
-    margin-left: 15%;
-  }
-
-}
-
-/* Larger devices */
-
-.push-from-left {
-  margin-left: 200px;
-}
-
-.boy-img {
-  max-width: 85%;
-  height: auto;
-}
-
-.customized-btn {
-  width: 60%;
-  border-radius: 8px;
-  border: none;
-  background-color: $quinary;
-  color: $black;
-}
-
-.customized-btn:hover {
-  background-color: $senary;
-  transition: 0.4s ease-in-out;
 }
 
 // Colors for the icons
