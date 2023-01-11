@@ -1,4 +1,4 @@
-@import "variables";
+@import "abstracts/variables";
 
 * {
   margin: 0;
@@ -7,29 +7,21 @@
   font-family: $font-stack;
 }
 
-
 body {
-  width: 100%;
-  display: block;
+  min-width: 100%;
   margin: auto;
-  //min-height: 100vh;
-  background: $primary-mint !important;
+  background: $primary !important;
   overflow: hidden;
 }
 
-h1, h3, h4, h6, {
-  color: $primary-white;
+h1,
+h3,
+h4,
+h6 {
+  color: $white;
 }
 
-h2, h5 {
- color: $primary-dark;
+h2,
+h5 {
+  color: $black;
 }
-
-.primary-dark-mint {
-  color: $primary-dark-mint;
-}
-
-.primary-green {
-  color: $primary-green;
-}
-

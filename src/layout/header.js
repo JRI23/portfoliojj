@@ -1,5 +1,5 @@
 import React from "react";
-import './header.scss';
+import '../sass/layout/header.scss';
 import 'hamburgers/_sass/hamburgers/hamburgers.scss';
 
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
         <>
             <nav className="custom-navbar">
                 <div className="max-width d-flex align-items-center justify-content-between">
-                    <div className="logojorai"><a href="/">J<span>JDesign.</span></a></div>
+                    <a className="logojorai" href="/">J<span>JDevelopment.</span></a>
                     <ul className="link-list d-flex justify-content-around align-items-center gap-3 mb-0">
                         <li className="d-none d-sm-inline-block"><a href="/">Home</a></li>
                         <li className="d-none d-sm-inline-block"><a href="/">About</a></li>
@@ -28,9 +28,9 @@ const Header = () => {
                         <li className="d-none d-sm-inline-block"><a href="/">Contact</a></li>
                         <li className="d-sm-none">
                             <button className="hamburger hamburger--elastic" type="button">
-                              <span className="hamburger-box">
-                                <span className="hamburger-inner"/>
-                              </span>
+                                <span className="hamburger-box">
+                                    <span className="hamburger-inner" />
+                                </span>
                             </button>
                         </li>
                     </ul>
